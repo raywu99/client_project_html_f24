@@ -24,17 +24,15 @@ html{
 }
 
 .navigation {
-    display: grid;
-    grid-template-rows: auto auto;
-    gap: 1rem;
     padding: 1rem;
     background-color: #00274C;
     text-align: center;
 }
 
 .navigation img {
-    max-width: 10em;
+    max-height: 10em;
     justify-self: center;
+    margin: 1rem 0;
 }
 
 .navigation ul {
