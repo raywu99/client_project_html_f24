@@ -3,7 +3,7 @@ html{
 }
 
 *:focus{
-    border: solid 5px #FFCB05;
+    border: solid 0.2rem #FFCB05;
 }
 
 .skip a{
@@ -11,16 +11,16 @@ html{
     border: 0.2em solid #FFCB05;
     color: #00274C;
     left: 0;
-    padding: 6px;
+    padding: 1rem;
     -webkit-transition: top 1s ease-out;
     transition: top 0.3s ease-out;
     z-index: 1;
     position: absolute;
-    top: -100px;
+    top: -10rem;
 }
 
 .skip a:focus{
-    top: 10px;
+    top: 1rem;
 }
 
 .navigation {
@@ -105,14 +105,14 @@ html{
 .content h2{
     font-size: 1.5rem;
     color: #00274C;
-    border-bottom: 2px solid #FFCB05;
-    padding: 0 0 10px 0;
-    margin: 0 0 10px 0;
+    border-bottom: 0.1rem solid #FFCB05;
+    padding: 0 0 1rem 0;
+    margin: 0 0 1rem 0;
     font-weight: bold;
 }
 
 .content p, .intro p{
-    padding: 10px 0;
+    padding: 0.5rem 0;
 }
 
 .content h3{
