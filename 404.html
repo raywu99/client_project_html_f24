@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/UMSI_signature_vertical_informal_solidblue.jpg">
+    <title>Student Success Portal</title>
+</head>
+<body>
+    <header class="navigation">
+        <div class="skip"><a href = "#main-content">Skip to Main Content</a></div>
+        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+        <nav>
+            <ul>
+                <li><a href = "index.html" class = "active">HOME</a></li>
+                <li><a href = "food_pantry.html">FOOD PANTRY</a></li>
+                <li><a href = "tutoring.html">TUTORING</a></li>
+                <li><a href = "first_gen.html">FIRST GEN</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="error-page" id = "main-content">
+        <section>
+            <h1>Oops...</h1>
+            <p>We couldn's find this page</p>
+            <a href = "index.html" class="return-button">Return to Home Page</a>
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="info">
+            <p>MSI Academic Advising </p>
+            <p><a href="mailto:umsi.advising.msi@umich.edu">umsi.advising.msi@umich.edu</a></p>
+            <p>&copy;<span id="year"></span> The Regents of the University of Michigan</p>
+        </div>
+        <div class="subscribe">
+            <h2>Newsletter</h2>
+            <form action="https://formspree.io/f/xrbgkzkp" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="eg. Ray Wu" required autocomplete="name"> </br>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="eg. raywu@umich.edu" required autocomplete="email">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
